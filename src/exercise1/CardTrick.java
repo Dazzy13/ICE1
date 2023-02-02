@@ -6,7 +6,7 @@ package exercise1;
  * To be used as starting code in Exercise
  *
  * @author dancye
- * @author Paul Bonenfant Jan 25, 2022 
+ * @author Dazzling Verdi Feb 2 2023 
  */
 public class CardTrick {
     
