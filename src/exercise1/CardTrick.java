@@ -36,7 +36,7 @@ public class CardTrick {
         for(int j = 0; j < hand.length; j++){
             
             if(hand[j].getSuit().equals(userCard.getSuit())){
-                
+                printInfo();
             }
         }
         // insert code to ask the user for Card value and suit, create their card
@@ -54,14 +54,14 @@ public class CardTrick {
     /**
      * A simple method to print out personal information. Follow the instructions to 
      * replace this information with your own.
-     * @author Paul Bonenfant Jan 2022
+     * @author Dazzling Verdi February 02 2023
      */
     private static void printInfo() {
     
         System.out.println("Congratulations, you guessed right!");
         System.out.println();
         
-        System.out.println("My name is Paul, but you can call me prof, Paul or sir");
+        System.out.println("My name is Dazzling, but you can call me Dazz");
         System.out.println();
         
         System.out.println("My career ambitions:");
@@ -70,10 +70,10 @@ public class CardTrick {
 	System.out.println();	
 
         System.out.println("My hobbies:");
-        System.out.println("-- Investing");
+        System.out.println("-- Going to concerts");
         System.out.println("-- Cooking");
         System.out.println("-- Reading/Watching TV");
-        System.out.println("-- Riding my motorcycle");
+        System.out.println("-- Playing the panflute");
 
         System.out.println();
         
